@@ -1,48 +1,37 @@
-# 🚀 如何启用 · Setup Guide
+# 🚀 说明 · How this profile works
 
-## 1) 创建「特殊仓库」 · Create the magic repo
-GitHub 个人主页的 overview 来自一个 **与用户名同名** 的仓库。
+个人主页 overview 来自与用户名同名的仓库 **`Horace-Maxwell/Horace-Maxwell`**(已建好并上线)。
+本设计的核心原则:**不依赖任何会限流/掉线的第三方实时服务**,能挂的一律换成
+「GitHub Actions 生成静态 SVG 提交进仓库」或已验证长期可靠的服务。
 
-- 新建仓库,名称必须是 **`Horace-Maxwell`**(和你的用户名一字不差)
-- 设为 **Public**
-- 建好后它的 README 就会显示在你主页顶部
+## 🧩 组成 · Components
 
-## 2) 放入文件 · Add the files
-把本文件夹的内容复制进该仓库根目录:
+| 区块 | 方案 | 可靠性 |
+|---|---|---|
+| 顶部 banner | 手写动画 SVG [`assets/banner.svg`](assets/banner.svg) | ⭐ 提交式,永不挂 |
+| 动态标语 | 手写动画 SVG [`assets/typing.svg`](assets/typing.svg) | ⭐ 提交式 |
+| 访问量 / 粉丝 / 标签 | komarev · shields.io | ✅ 已验证 |
+| 术数 / 技术栈徽章 | shields.io | ✅ 已验证 |
+| 代表作卡片 | shields.io(实时 star/fork/语言) | ✅ 已验证 |
+| 统计 / 语言 / 编码时段 | **`github-profile-summary-cards`** Action → [`assets/cards/`](assets/cards) (tokyonight 主题) | ⭐ 提交式,真实聚合数据 |
+| 连续贡献 streak | streak-stats.demolab.com | ✅ 已验证 |
+| 贡献蛇 | **`Platane/snk`** Action → `output` 分支 | ⭐ 提交式 |
+| 页脚 | 手写 SVG [`assets/footer.svg`](assets/footer.svg) | ⭐ 提交式 |
 
-```
-Horace-Maxwell/
-├── README.md
-├── assets/
-│   └── banner.svg
-└── .github/
-    └── workflows/
-        └── snake.yml   (可选)
-```
+> ❌ 已弃用:github-readme-stats、github-readme-activity-graph、readme-typing-svg、
+> github-profile-trophy、capsule-render —— 这些 vercel 公共实例经常限流,就是之前满屏「?」的元凶。
 
-命令行方式:
+## ⚙️ 自动化 · Workflows
 
-```bash
-git clone https://github.com/Horace-Maxwell/Horace-Maxwell.git
-cd Horace-Maxwell
-# 把 README.md、assets/、.github/ 复制进来
-git add .
-git commit -m "✨ cosmic profile · 观天执天"
-git push
-```
+- [`.github/workflows/profile-cards.yml`](.github/workflows/profile-cards.yml) —— 每天生成
+  tokyonight 统计卡到 `assets/cards/`(只保留一套主题,不污染仓库)。用内置 `GITHUB_TOKEN`,无需 PAT。
+- [`.github/workflows/snake.yml`](.github/workflows/snake.yml) —— 每 12 小时生成贪吃蛇到 `output` 分支。
 
-## 3) 贡献蛇动画 · Contribution snake ✅ 已启用
-`.github/workflows/snake.yml` 已运行,蛇图已接入 `README.md`,之后每 12 小时自动刷新。
-以下为手动搭建步骤(供参考 / 迁移时用):
-1. 到仓库 **Actions** 页,运行一次 **generate snake**(workflow_dispatch)。
-2. 运行成功后会生成 `output` 分支,在 README 里引用:
+两者都可在仓库 **Actions** 页手动 `Run workflow` 立即刷新。
 
-```html
-<img src="https://raw.githubusercontent.com/Horace-Maxwell/Horace-Maxwell/output/snake-dark.svg" width="100%" />
-```
+## 🎨 想改 · Customize
 
-## 说明 · Notes
-- 所有数据卡片(followers / 语言占比 / streak / 奖杯 / 贡献星轨)都会**自动读取你的真实数据**,无需手填。
-- 配色为「深空紫 · 星金 · 天青」,深色 / 浅色模式都清晰可读。
-- `banner.svg` 是纯手写 SVG,内置**星空闪烁、流星划过、罗盘八卦旋转**动画,GitHub 原生支持,无需任何服务。
-- 想改标语 / 颜色 / 术数标签,直接编辑 `README.md` 与 `assets/banner.svg` 即可。
+- 换统计卡配色:把 `profile-cards.yml` 里 workflow 复制的 `tokyonight` 换成其它主题名
+  (如 `shades_of_purple`、`radical`、`synthwave`、`midnight_purple`),同时改 README 里 `assets/cards/` 引用即可。
+- 改标语 / 术数标签 / 配色:直接编辑对应的 `assets/*.svg` 与 `README.md`。
+- 本地副本在 `Downloads/github-profile/`。

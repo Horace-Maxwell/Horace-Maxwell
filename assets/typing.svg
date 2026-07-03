@@ -1,0 +1,34 @@
+<svg viewBox="0 0 880 56" width="880" height="56" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="观天之道 执天之行 · 十项全能玄学术数工作站 Horosa">
+  <defs>
+    <linearGradient id="tg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c8a2ff"/>
+      <stop offset="50%" stop-color="#8fd7f5"/>
+      <stop offset="100%" stop-color="#f0b429"/>
+    </linearGradient>
+    <filter id="tgl" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="0.6"/>
+    </filter>
+  </defs>
+  <g font-family="'Fira Code','PingFang SC','Noto Sans SC','Microsoft YaHei',monospace"
+     font-size="23" font-weight="600" text-anchor="middle" fill="url(#tg)" filter="url(#tgl)">
+    <text x="440" y="37" opacity="0">观天之道 · 执天之行
+      <animate attributeName="opacity" dur="12s" repeatCount="indefinite"
+               values="0;1;1;0;0" keyTimes="0;0.02;0.22;0.25;1"/>
+    </text>
+    <text x="440" y="37" opacity="0">十项全能玄学术数工作站 · Horosa
+      <animate attributeName="opacity" dur="12s" repeatCount="indefinite"
+               values="0;0;1;1;0;0" keyTimes="0;0.25;0.27;0.47;0.5;1"/>
+    </text>
+    <text x="440" y="37" opacity="0">让 AI 本地挂载一个玄学家
+      <animate attributeName="opacity" dur="12s" repeatCount="indefinite"
+               values="0;0;1;1;0;0" keyTimes="0;0.5;0.52;0.72;0.75;1"/>
+    </text>
+    <text x="440" y="37" opacity="0">紫微 · 八字 · 占星 · 六壬 · 奇门 · 太乙
+      <animate attributeName="opacity" dur="12s" repeatCount="indefinite"
+               values="0;0;1;1;0;0" keyTimes="0;0.75;0.77;0.97;0.999;1"/>
+    </text>
+  </g>
+  <rect x="437" y="46" width="6" height="2" fill="#c8a2ff">
+    <animate attributeName="opacity" dur="1s" repeatCount="indefinite" values="1;1;0;0" keyTimes="0;0.5;0.5;1"/>
+  </rect>
+</svg>

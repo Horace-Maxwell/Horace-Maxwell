@@ -5,9 +5,7 @@
 </div>
 
 <div align="center">
-  <a href="https://github.com/Horace-Maxwell">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=900&color=C8A2FF&center=true&vCenter=true&width=860&height=48&lines=观天之道%EF%BC%8C执天之行;十项全能玄学术数工作站+·+Horosa;让+AI+本地挂载一个玄学家+·+Mount+a+Metaphysician;紫微+·+八字+·+占星+·+六壬+·+奇门+·+太乙" alt="typing" />
-  </a>
+  <img src="./assets/typing.svg" alt="观天之道 执天之行" width="88%" />
 </div>
 
 <div align="center">
@@ -26,10 +24,10 @@
 
 **中文**
 
-- 🔭 十项全能玄学术数工作站 **Horosa** 的作者 —— 覆盖 **紫微斗数 · 八字 · 占星 · 六壬 · 奇门遁甲 · 太乙 · 六爻 · 风水** 及绝大部分主流推运技法（含正统主限法）。
-- 🤖 让 AI「本地挂载一个玄学家」：`horosa-skill` 把术数能力离线赋给你的模型。
-- 🖥️ 跨平台交付：**macOS / Windows** 桌面端、**Apple Silicon** 原生、以及手机端适配。
-- 🙏 于旧星阁 Horosa 基础上改良制作，感谢 **爽哥**、**郑大哥** 与全体开发团队的贡献。
+- 🔭 十项全能玄学术数工作站 **Horosa** 的作者 —— 覆盖 **紫微斗数 · 八字 · 占星 · 六壬 · 奇门遁甲 · 太乙 · 六爻 · 风水** 及绝大部分主流推运技法(含正统主限法)。
+- 🤖 让 AI「本地挂载一个玄学家」:`horosa-skill` 把术数能力离线赋给你的模型。
+- 🖥️ 跨平台交付:**macOS / Windows** 桌面端、**Apple Silicon** 原生、以及手机端适配。
+- 🙏 于旧星阁 Horosa 基础上改良制作,感谢 **爽哥**、**郑大哥** 与全体开发团队的贡献。
 
 **English**
 
@@ -85,48 +83,87 @@ focus:  玄学 × AI × 跨端
 
 ## ⭐ 代表作 · Featured Works
 
-<div align="center">
-  <a href="https://github.com/Horace-Maxwell/Horosa-Web-App-comprehensively-improved-MacOS">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Horace-Maxwell&repo=Horosa-Web-App-comprehensively-improved-MacOS&title_color=f0b429&text_color=c9d1e0&icon_color=8b5cf6&bg_color=0d0a1f&border_color=30225e&show_owner=false" />
-  </a>
-  <a href="https://github.com/Horace-Maxwell/Horosa-Web-App-comprehensively-improved-Windows">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Horace-Maxwell&repo=Horosa-Web-App-comprehensively-improved-Windows&title_color=f0b429&text_color=c9d1e0&icon_color=8b5cf6&bg_color=0d0a1f&border_color=30225e&show_owner=false" />
-  </a>
-</div>
-<div align="center">
-  <a href="https://github.com/Horace-Maxwell/horosa-skill">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Horace-Maxwell&repo=horosa-skill&title_color=f0b429&text_color=c9d1e0&icon_color=8b5cf6&bg_color=0d0a1f&border_color=30225e&show_owner=false" />
-  </a>
-  <a href="https://github.com/Horace-Maxwell/Moira_APP_MacOS_ARM">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Horace-Maxwell&repo=Moira_APP_MacOS_ARM&title_color=f0b429&text_color=c9d1e0&icon_color=8b5cf6&bg_color=0d0a1f&border_color=30225e&show_owner=false" />
-  </a>
-</div>
-<div align="center">
-  <a href="https://github.com/Horace-Maxwell/Horosa-PhoneAPP-Mac">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Horace-Maxwell&repo=Horosa-PhoneAPP-Mac&title_color=f0b429&text_color=c9d1e0&icon_color=8b5cf6&bg_color=0d0a1f&border_color=30225e&show_owner=false" />
-  </a>
-  <a href="https://github.com/Horace-Maxwell/divination-notes-prompt">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Horace-Maxwell&repo=divination-notes-prompt&title_color=f0b429&text_color=c9d1e0&icon_color=8b5cf6&bg_color=0d0a1f&border_color=30225e&show_owner=false" />
-  </a>
-</div>
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 🖥️ [Horosa · macOS](https://github.com/Horace-Maxwell/Horosa-Web-App-comprehensively-improved-MacOS)
+十项全能玄学术数工作站 · Mac 端<br/>
+<img src="https://img.shields.io/github/stars/Horace-Maxwell/Horosa-Web-App-comprehensively-improved-MacOS?style=flat-square&logo=github&color=f0b429&labelColor=1a1b27" />
+<img src="https://img.shields.io/github/forks/Horace-Maxwell/Horosa-Web-App-comprehensively-improved-MacOS?style=flat-square&logo=git&logoColor=white&color=8b5cf6&labelColor=1a1b27" />
+<img src="https://img.shields.io/github/languages/top/Horace-Maxwell/Horosa-Web-App-comprehensively-improved-MacOS?style=flat-square&color=38bdf8&labelColor=1a1b27" />
+
+</td>
+<td width="50%" valign="top">
+
+#### 🪟 [Horosa · Windows](https://github.com/Horace-Maxwell/Horosa-Web-App-comprehensively-improved-Windows)
+十项全能玄学术数工作站 · Win 端<br/>
+<img src="https://img.shields.io/github/stars/Horace-Maxwell/Horosa-Web-App-comprehensively-improved-Windows?style=flat-square&logo=github&color=f0b429&labelColor=1a1b27" />
+<img src="https://img.shields.io/github/forks/Horace-Maxwell/Horosa-Web-App-comprehensively-improved-Windows?style=flat-square&logo=git&logoColor=white&color=8b5cf6&labelColor=1a1b27" />
+<img src="https://img.shields.io/github/languages/top/Horace-Maxwell/Horosa-Web-App-comprehensively-improved-Windows?style=flat-square&color=38bdf8&labelColor=1a1b27" />
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 🤖 [horosa-skill](https://github.com/Horace-Maxwell/horosa-skill)
+让 AI 本地挂载一个玄学家 · 离线术数技能<br/>
+<img src="https://img.shields.io/github/stars/Horace-Maxwell/horosa-skill?style=flat-square&logo=github&color=f0b429&labelColor=1a1b27" />
+<img src="https://img.shields.io/github/forks/Horace-Maxwell/horosa-skill?style=flat-square&logo=git&logoColor=white&color=8b5cf6&labelColor=1a1b27" />
+<img src="https://img.shields.io/github/languages/top/Horace-Maxwell/horosa-skill?style=flat-square&color=38bdf8&labelColor=1a1b27" />
+
+</td>
+<td width="50%" valign="top">
+
+#### 🍎 [Moira · macOS ARM](https://github.com/Horace-Maxwell/Moira_APP_MacOS_ARM)
+Apple Silicon 本地运行的 Moira APP<br/>
+<img src="https://img.shields.io/github/stars/Horace-Maxwell/Moira_APP_MacOS_ARM?style=flat-square&logo=github&color=f0b429&labelColor=1a1b27" />
+<img src="https://img.shields.io/github/forks/Horace-Maxwell/Moira_APP_MacOS_ARM?style=flat-square&logo=git&logoColor=white&color=8b5cf6&labelColor=1a1b27" />
+<img src="https://img.shields.io/github/languages/top/Horace-Maxwell/Moira_APP_MacOS_ARM?style=flat-square&color=38bdf8&labelColor=1a1b27" />
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 📱 [Horosa · PhoneAPP](https://github.com/Horace-Maxwell/Horosa-PhoneAPP-Mac)
+星阁手机 APP · Mac 适配<br/>
+<img src="https://img.shields.io/github/stars/Horace-Maxwell/Horosa-PhoneAPP-Mac?style=flat-square&logo=github&color=f0b429&labelColor=1a1b27" />
+<img src="https://img.shields.io/github/forks/Horace-Maxwell/Horosa-PhoneAPP-Mac?style=flat-square&logo=git&logoColor=white&color=8b5cf6&labelColor=1a1b27" />
+<img src="https://img.shields.io/github/languages/top/Horace-Maxwell/Horosa-PhoneAPP-Mac?style=flat-square&color=38bdf8&labelColor=1a1b27" />
+
+</td>
+<td width="50%" valign="top">
+
+#### 📜 [divination-notes-prompt](https://github.com/Horace-Maxwell/divination-notes-prompt)
+荀爽直播 / 星阁文章整理 · AI 命理 prompt<br/>
+<img src="https://img.shields.io/github/stars/Horace-Maxwell/divination-notes-prompt?style=flat-square&logo=github&color=f0b429&labelColor=1a1b27" />
+<img src="https://img.shields.io/github/forks/Horace-Maxwell/divination-notes-prompt?style=flat-square&logo=git&logoColor=white&color=8b5cf6&labelColor=1a1b27" />
+<img src="https://img.shields.io/github/languages/top/Horace-Maxwell/divination-notes-prompt?style=flat-square&color=38bdf8&labelColor=1a1b27" />
+
+</td>
+</tr>
+</table>
 
 ## 📈 星图 · GitHub Constellations
 
 <div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Horace-Maxwell&show_icons=true&count_private=true&include_all_commits=true&rank_icon=percentile&title_color=f0b429&text_color=c9d1e0&icon_color=8b5cf6&bg_color=0d0a1f&border_color=30225e" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Horace-Maxwell&layout=compact&langs_count=8&title_color=f0b429&text_color=c9d1e0&bg_color=0d0a1f&border_color=30225e" />
+  <img src="./assets/cards/0-profile-details.svg" width="84%" alt="profile details" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=Horace-Maxwell&background=0d0a1f&border=30225e&stroke=8b5cf6&ring=f0b429&fire=f0b429&currStreakLabel=c8a2ff&sideLabels=c9d1e0&currStreakNum=ffffff&sideNums=ffffff&dates=8b8b9e" />
+  <img src="./assets/cards/3-stats.svg" height="200" alt="stats" />
+  <img src="./assets/cards/4-productive-time.svg" height="200" alt="productive time" />
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Horace-Maxwell&theme=onedark&no-frame=true&no-bg=true&margin-w=6&margin-h=6&column=8" />
+  <img src="./assets/cards/1-repos-per-language.svg" height="200" alt="top languages by repo" />
+  <img src="./assets/cards/2-most-commit-language.svg" height="200" alt="top languages by commit" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Horace-Maxwell&bg_color=0d0a1f&color=c8a2ff&line=8b5cf6&point=f0b429&area=true&area_color=6e40c9&hide_border=true&custom_title=贡献星轨+·+Contribution+Orbit" width="100%" />
+  <img src="https://streak-stats.demolab.com/?user=Horace-Maxwell&background=0d0a1f&border=30225e&stroke=8b5cf6&ring=f0b429&fire=f0b429&currStreakLabel=c8a2ff&sideLabels=c9d1e0&currStreakNum=ffffff&sideNums=ffffff&dates=8b8b9e" alt="streak" />
 </div>
 
 <div align="center">
@@ -136,17 +173,15 @@ focus:  玄学 × AI × 跨端
 ## 🔮 联系 · Connect
 
 <div align="center">
-  <a href="https://sites.google.com/view/horace-horosa/%E4%B8%BB%E9%A1%B5">
-    <img src="https://img.shields.io/badge/Horosa_官网-Website-8b5cf6?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0d0a1f" />
-  </a>
   <a href="mailto:maxwelldhx@gmail.com">
     <img src="https://img.shields.io/badge/Email-maxwelldhx@gmail.com-f0b429?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d0a1f" />
   </a>
+  <a href="https://github.com/Horace-Maxwell">
+    <img src="https://img.shields.io/badge/GitHub-Horace--Maxwell-8b5cf6?style=for-the-badge&logo=github&logoColor=white&labelColor=0d0a1f" />
+  </a>
 </div>
 
-<br/>
-
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6e40c9,50:8b5cf6,100:38bdf8&height=110&section=footer" width="100%" />
+  <img src="./assets/footer.svg" width="100%" alt="观天之道 执天之行" />
   <sub>「 观天之道,执天之行。 」 · <i>Observe the Way of Heaven, and hold to its workings.</i></sub>
 </div>
