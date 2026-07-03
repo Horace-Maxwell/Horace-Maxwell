@@ -1,24 +1,88 @@
-<svg viewBox="0 0 1200 96" width="1200" height="96" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="观天之道 执天之行">
+<svg viewBox="0 0 1200 200" width="1200" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="阴阳相胜之术 昭昭乎进乎象矣">
   <defs>
-    <linearGradient id="fl" x1="0" y1="0" x2="1" y2="0">
+    <radialGradient id="fnb" cx="50%" cy="34%" r="82%">
+      <stop offset="0%" stop-color="#241548"/>
+      <stop offset="55%" stop-color="#140d2a"/>
+      <stop offset="100%" stop-color="#070510"/>
+    </radialGradient>
+    <linearGradient id="fverse" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f7d774"/>
+      <stop offset="45%" stop-color="#f0b429"/>
+      <stop offset="100%" stop-color="#c8a2ff"/>
+      <animate attributeName="x1" values="-0.3;0.4;-0.3" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0.7;1.4;0.7" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="fdiv" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#f0b429" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#f0b429" stop-opacity="0.95"/>
       <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
     </linearGradient>
-    <radialGradient id="fg" cx="50%" cy="0%" r="90%">
-      <stop offset="0%" stop-color="#1a1033" stop-opacity="0.7"/>
-      <stop offset="100%" stop-color="#0d0a1f" stop-opacity="0"/>
-    </radialGradient>
+    <linearGradient id="fshoot" x1="0" y1="0" x2="1" y2="0.4">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/><stop offset="100%" stop-color="#ffffff" stop-opacity="1"/>
+    </linearGradient>
+    <filter id="fvglow" x="-40%" y="-60%" width="180%" height="220%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="fnbblur" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="20"/></filter>
   </defs>
-  <rect width="1200" height="96" fill="url(#fg)"/>
-  <g fill="#ffffff">
-    <circle cx="180" cy="26" r="1.2"><animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/></circle>
-    <circle cx="320" cy="60" r="1"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.6s" begin="0.6s" repeatCount="indefinite"/></circle>
-    <circle cx="900" cy="30" r="1.1"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.4s" begin="1s" repeatCount="indefinite"/></circle>
-    <circle cx="1030" cy="62" r="1.3"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.9s" begin="0.3s" repeatCount="indefinite"/></circle>
-    <circle cx="620" cy="20" r="1"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.1s" begin="1.3s" repeatCount="indefinite"/></circle>
+
+  <rect width="1200" height="200" fill="url(#fnb)"/>
+
+  <g filter="url(#fnbblur)">
+    <circle cx="235" cy="70" r="72" fill="#6d28d9" opacity="0.38"/>
+    <circle cx="985" cy="150" r="88" fill="#1d4ed8" opacity="0.32"/>
+    <circle cx="1085" cy="46" r="52" fill="#b45309" opacity="0.26"/>
   </g>
-  <rect x="360" y="40" width="480" height="2" rx="1" fill="url(#fl)"/>
-  <text x="600" y="70" text-anchor="middle" font-size="17" letter-spacing="6"
-        font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',serif" fill="#c8a2ff">观天之道 · 执天之行</text>
+
+  <g fill="#ffffff">
+    <circle cx="70" cy="40" r="1.2"><animate attributeName="opacity" values="0.2;1;0.2" dur="3s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle cx="150" cy="150" r="1"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.6s" begin="0.5s" repeatCount="indefinite"/></circle>
+    <circle cx="300" cy="58" r="1.1"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.4s" begin="1s" repeatCount="indefinite"/></circle>
+    <circle cx="258" cy="168" r="1"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.4s" begin="0.3s" repeatCount="indefinite"/></circle>
+    <circle cx="430" cy="40" r="1.3"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.8s" begin="0.8s" repeatCount="indefinite"/></circle>
+    <circle cx="520" cy="162" r="1"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.7s" begin="1.3s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="48" r="1.1"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.1s" begin="0.2s" repeatCount="indefinite"/></circle>
+    <circle cx="762" cy="170" r="1.2"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.5s" begin="0.9s" repeatCount="indefinite"/></circle>
+    <circle cx="900" cy="60" r="1"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.5s" begin="1.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1040" cy="150" r="1.3"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.9s" begin="0.4s" repeatCount="indefinite"/></circle>
+    <circle cx="1120" cy="50" r="1.1"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.8s" begin="1.1s" repeatCount="indefinite"/></circle>
+    <circle cx="1152" cy="120" r="1"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.4s" begin="0.6s" repeatCount="indefinite"/></circle>
+    <circle cx="40" cy="120" r="1"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.2s" begin="1.4s" repeatCount="indefinite"/></circle>
+    <circle cx="620" cy="28" r="1"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.6s" begin="0.7s" repeatCount="indefinite"/></circle>
+    <circle cx="580" cy="176" r="1.1"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.6s" begin="0.25s" repeatCount="indefinite"/></circle>
+    <circle cx="990" cy="38" r="1"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.9s" begin="1.2s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="880,26;620,150" dur="8s" begin="2.5s" repeatCount="indefinite"/>
+    <line x1="0" y1="0" x2="34" y2="13" stroke="url(#fshoot)" stroke-width="1.5" stroke-linecap="round" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.62;0.72;1" dur="8s" begin="2.5s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <!-- rotating halo behind verse -->
+  <g transform="translate(600,100)" opacity="0.16">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="90s" repeatCount="indefinite"/>
+      <circle r="92" fill="none" stroke="#f0b429" stroke-width="1"/>
+      <circle r="70" fill="none" stroke="#8b5cf6" stroke-width="0.8" stroke-dasharray="2 8"/>
+    </g>
+  </g>
+  <g transform="translate(600,100)" opacity="0.13">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="60s" repeatCount="indefinite"/>
+      <circle r="112" fill="none" stroke="#38bdf8" stroke-width="0.6" stroke-dasharray="1 12"/>
+    </g>
+  </g>
+
+  <rect x="352" y="64" width="496" height="1.6" rx="1" fill="url(#fdiv)"/>
+
+  <text x="600" y="116" text-anchor="middle" font-size="31" font-weight="700" fill="url(#fverse)" filter="url(#fvglow)" opacity="0.55"
+        font-family="'Songti SC','STSong','Noto Serif SC','SimSun',serif" letter-spacing="5">阴阳相胜之术 · 昭昭乎进乎象矣
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="5s" repeatCount="indefinite"/>
+  </text>
+  <text x="600" y="116" text-anchor="middle" font-size="31" font-weight="700" fill="url(#fverse)"
+        font-family="'Songti SC','STSong','Noto Serif SC','SimSun',serif" letter-spacing="5">阴阳相胜之术 · 昭昭乎进乎象矣</text>
+
+  <rect x="430" y="138" width="340" height="1.4" rx="1" fill="url(#fdiv)"/>
+  <text x="600" y="164" text-anchor="middle" font-size="11" letter-spacing="7" fill="#8288b8"
+        font-family="'PingFang SC','Noto Sans SC',sans-serif">阴 符 经 · YIN FU JING</text>
 </svg>

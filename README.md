@@ -288,6 +288,5 @@ Apple Silicon 本地运行的 Moira APP<br/>
 </div>
 
 <div align="center">
-  <img src="./assets/footer.svg" width="100%" alt="观天之道 执天之行" />
-  <sub>「 观天之道,执天之行。 」 · <i>Observe the Way of Heaven, and hold to its workings.</i></sub>
+  <img src="./assets/footer.svg" width="100%" alt="阴阳相胜之术 昭昭乎进乎象矣" />
 </div>

@@ -1,28 +1,49 @@
-<svg viewBox="0 0 900 54" width="900" height="54" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="观天之道 执天之行 · 十项全能玄学术数工作站 Horosa">
+<svg viewBox="0 0 900 64" width="900" height="64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="观天之道 执天之行 · 十项全能玄学术数工作站 Horosa">
   <defs>
     <linearGradient id="tg" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#c8a2ff"/>
       <stop offset="45%" stop-color="#8fd7f5"/>
       <stop offset="100%" stop-color="#f0b429"/>
     </linearGradient>
+    <radialGradient id="taura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#6d28d9" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#6d28d9" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="tunder" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#f0b429" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
   </defs>
+
+  <ellipse cx="450" cy="30" rx="300" ry="24" fill="url(#taura)">
+    <animate attributeName="opacity" values="0.45;0.95;0.45" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="rx" values="270;320;270" dur="4s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <g fill="#f0b429">
+    <path d="M40 30 l4 -5 l4 5 l-4 5 z"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.6s" repeatCount="indefinite"/></path>
+    <path d="M852 30 l4 -5 l4 5 l-4 5 z"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.6s" begin="1.3s" repeatCount="indefinite"/></path>
+  </g>
+
   <g font-family="'Fira Code','PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif"
      font-size="24" font-weight="700" text-anchor="middle" fill="url(#tg)">
-    <text x="450" y="36" opacity="0">观天之道 · 执天之行
-      <animate attributeName="opacity" dur="12s" repeatCount="indefinite"
-               values="0;1;1;0;0" keyTimes="0;0.02;0.22;0.25;1"/>
+    <text x="450" y="38" opacity="0">观天之道 · 执天之行
+      <animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0;0.02;0.22;0.25;1"/>
     </text>
-    <text x="450" y="36" opacity="0">十项全能玄学术数工作站 · Horosa
-      <animate attributeName="opacity" dur="12s" repeatCount="indefinite"
-               values="0;0;1;1;0;0" keyTimes="0;0.25;0.27;0.47;0.5;1"/>
+    <text x="450" y="38" opacity="0">十项全能玄学术数工作站 · Horosa
+      <animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.25;0.27;0.47;0.5;1"/>
     </text>
-    <text x="450" y="36" opacity="0">让 AI 本地挂载一个玄学家
-      <animate attributeName="opacity" dur="12s" repeatCount="indefinite"
-               values="0;0;1;1;0;0" keyTimes="0;0.5;0.52;0.72;0.75;1"/>
+    <text x="450" y="38" opacity="0">让 AI 本地挂载一个玄学家
+      <animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.5;0.52;0.72;0.75;1"/>
     </text>
-    <text x="450" y="36" opacity="0">紫微 · 八字 · 占星 · 六壬 · 奇门 · 太乙
-      <animate attributeName="opacity" dur="12s" repeatCount="indefinite"
-               values="0;0;1;1;0;0" keyTimes="0;0.75;0.77;0.97;0.999;1"/>
+    <text x="450" y="38" opacity="0">紫微 · 八字 · 占星 · 六壬 · 奇门 · 太乙
+      <animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.75;0.77;0.97;0.999;1"/>
     </text>
   </g>
+
+  <rect x="330" y="52" width="240" height="1.6" rx="1" fill="url(#tunder)">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="4s" repeatCount="indefinite"/>
+  </rect>
 </svg>

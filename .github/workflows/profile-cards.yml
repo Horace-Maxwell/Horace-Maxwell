@@ -2,7 +2,7 @@ name: profile-summary-cards
 
 on:
   schedule:
-    - cron: "0 */2 * * *"
+    - cron: "30 5 * * *"
   workflow_dispatch:
 
 permissions:
