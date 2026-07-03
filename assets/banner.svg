@@ -39,7 +39,9 @@
       <feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <filter id="bigGlow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="9"/></filter>
+    <filter id="tagGlow" x="-30%" y="-70%" width="160%" height="240%"><feGaussianBlur stdDeviation="4"/></filter>
     <filter id="nebBlur" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="26"/></filter>
+    <filter id="starGlow" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="2"/></filter>
   </defs>
 
   <rect width="1200" height="400" fill="url(#nebula)"/>
@@ -67,7 +69,6 @@
     <circle cx="80" cy="60" r="1.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.2s" begin="0s" repeatCount="indefinite"/></circle>
     <circle cx="150" cy="200" r="1"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.6s" begin="0.5s" repeatCount="indefinite"/></circle>
     <circle cx="60" cy="300" r="1.6"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.8s" begin="1.1s" repeatCount="indefinite"/></circle>
-    <circle cx="205" cy="150" r="1.1"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.9s" begin="0.3s" repeatCount="indefinite"/></circle>
     <circle cx="260" cy="260" r="1.3"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.4s" begin="0.8s" repeatCount="indefinite"/></circle>
     <circle cx="120" cy="345" r="1.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="4.1s" begin="0.2s" repeatCount="indefinite"/></circle>
     <circle cx="380" cy="320" r="1.2"><animate attributeName="opacity" values="0.2;1;0.2" dur="3s" begin="0.9s" repeatCount="indefinite"/></circle>
@@ -102,26 +103,25 @@
 
   <!-- sparkle stars -->
   <g fill="#ffffff">
-    <g transform="translate(140,95)"><path d="M0,-10 L1.4,-1.4 L10,0 L1.4,1.4 L0,10 L-1.4,1.4 L-10,0 L-1.4,-1.4 Z"><animateTransform attributeName="transform" type="scale" values="0.5;1.1;0.5" dur="3.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.4;1;0.4" dur="3.4s" repeatCount="indefinite"/></path></g>
     <g transform="translate(1075,155)"><path d="M0,-9 L1.3,-1.3 L9,0 L1.3,1.3 L0,9 L-1.3,1.3 L-9,0 L-1.3,-1.3 Z"><animateTransform attributeName="transform" type="scale" values="0.5;1.1;0.5" dur="3s" begin="1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.4;1;0.4" dur="3s" begin="1s" repeatCount="indefinite"/></path></g>
     <g transform="translate(500,335)"><path d="M0,-8 L1.2,-1.2 L8,0 L1.2,1.2 L0,8 L-1.2,1.2 L-8,0 L-1.2,-1.2 Z"><animateTransform attributeName="transform" type="scale" values="0.5;1;0.5" dur="3.8s" begin="0.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.4;1;0.4" dur="3.8s" begin="0.5s" repeatCount="indefinite"/></path></g>
     <g transform="translate(925,60)"><path d="M0,-8 L1.2,-1.2 L8,0 L1.2,1.2 L0,8 L-1.2,1.2 L-8,0 L-1.2,-1.2 Z"><animateTransform attributeName="transform" type="scale" values="0.5;1;0.5" dur="3.2s" begin="1.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.4;1;0.4" dur="3.2s" begin="1.6s" repeatCount="indefinite"/></path></g>
   </g>
 
-  <!-- 北斗七星 · Big Dipper -->
-  <g opacity="0.7">
-    <g stroke="#bcd8ff" stroke-width="0.8" opacity="0.4" fill="none">
-      <path d="M150,120 L160,84 L212,74 L205,112 Z"/>
-      <path d="M205,112 L250,124 L293,110 L332,130"/>
+  <!-- 北斗七星 · Big Dipper (斗魁四星 + 斗柄三星) -->
+  <g opacity="0.8">
+    <g stroke="#bcd8ff" stroke-width="1" opacity="0.5" fill="none" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M248,92 L315,80 L320,126 L256,132 Z"/>
+      <path d="M248,92 L195,74 L140,80 L85,95"/>
     </g>
-    <g fill="#eaf3ff">
-      <circle cx="150" cy="120" r="1.7"><animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/></circle>
-      <circle cx="160" cy="84" r="1.5"><animate attributeName="opacity" values="0.5;1;0.5" dur="3.4s" begin="0.4s" repeatCount="indefinite"/></circle>
-      <circle cx="212" cy="74" r="1.8"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.8s" begin="0.8s" repeatCount="indefinite"/></circle>
-      <circle cx="205" cy="112" r="1.5"><animate attributeName="opacity" values="0.5;1;0.5" dur="3.2s" begin="0.2s" repeatCount="indefinite"/></circle>
-      <circle cx="250" cy="124" r="1.6"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.9s" begin="1s" repeatCount="indefinite"/></circle>
-      <circle cx="293" cy="110" r="1.5"><animate attributeName="opacity" values="0.5;1;0.5" dur="3.5s" begin="0.6s" repeatCount="indefinite"/></circle>
-      <circle cx="332" cy="130" r="1.7"><animate attributeName="opacity" values="0.5;1;0.5" dur="3.1s" begin="1.2s" repeatCount="indefinite"/></circle>
+    <g fill="#f2f7ff">
+      <circle cx="315" cy="80" r="2.1"><animate attributeName="opacity" values="0.55;1;0.55" dur="2.8s" begin="0.8s" repeatCount="indefinite"/></circle>
+      <circle cx="320" cy="126" r="1.9"><animate attributeName="opacity" values="0.55;1;0.55" dur="2.9s" begin="1s" repeatCount="indefinite"/></circle>
+      <circle cx="256" cy="132" r="1.8"><animate attributeName="opacity" values="0.55;1;0.55" dur="3s" begin="0.5s" repeatCount="indefinite"/></circle>
+      <circle cx="248" cy="92" r="1.7"><animate attributeName="opacity" values="0.55;1;0.55" dur="3.2s" begin="0.2s" repeatCount="indefinite"/></circle>
+      <circle cx="195" cy="74" r="1.8"><animate attributeName="opacity" values="0.55;1;0.55" dur="3.4s" begin="0.4s" repeatCount="indefinite"/></circle>
+      <circle cx="140" cy="80" r="1.7"><animate attributeName="opacity" values="0.55;1;0.55" dur="3.5s" begin="0.6s" repeatCount="indefinite"/></circle>
+      <circle cx="85" cy="95" r="1.9"><animate attributeName="opacity" values="0.55;1;0.55" dur="3.1s" begin="1.2s" repeatCount="indefinite"/></circle>
     </g>
   </g>
 
@@ -135,15 +135,15 @@
     <circle r="2" fill="#d9f4ff"><animateMotion dur="22s" repeatCount="indefinite" path="M308,200 A292,106 0 1,0 892,200 A292,106 0 1,0 308,200"/></circle>
   </g>
 
-  <!-- luopan · rotating compass -->
+  <!-- luopan · rotating compass (后天八卦 · King Wen order) -->
   <g transform="translate(600,200)">
     <g opacity="0.22">
       <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="100s" repeatCount="indefinite"/>
       <circle r="198" fill="none" stroke="#f0b429" stroke-width="1"/>
       <circle r="168" fill="none" stroke="#8b5cf6" stroke-width="1"/>
       <g fill="#e6d6ff" font-size="26" font-family="serif" text-anchor="middle" dominant-baseline="central">
-        <text x="183" y="0">☰</text><text x="129" y="129">☱</text><text x="0" y="183">☲</text><text x="-129" y="129">☳</text>
-        <text x="-183" y="0">☴</text><text x="-129" y="-129">☵</text><text x="0" y="-183">☶</text><text x="129" y="-129">☷</text>
+        <text x="0" y="-183">☲</text><text x="129" y="-129">☷</text><text x="183" y="0">☱</text><text x="129" y="129">☰</text>
+        <text x="0" y="183">☵</text><text x="-129" y="129">☶</text><text x="-183" y="0">☳</text><text x="-129" y="-129">☴</text>
       </g>
     </g>
     <g opacity="0.20" stroke="#c8a2ff" stroke-width="1">
@@ -169,8 +169,8 @@
     </line>
   </g>
   <g>
-    <animateTransform attributeName="transform" type="translate" values="330,55;140,255" dur="9s" begin="5s" repeatCount="indefinite"/>
-    <line x1="0" y1="0" x2="30" y2="16" stroke="url(#shoot)" stroke-width="1.4" stroke-linecap="round" opacity="0">
+    <animateTransform attributeName="transform" type="translate" values="1010,300;760,120" dur="9s" begin="5s" repeatCount="indefinite"/>
+    <line x1="0" y1="0" x2="30" y2="-16" stroke="url(#shoot)" stroke-width="1.4" stroke-linecap="round" opacity="0">
       <animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.6;0.7;1" dur="9s" begin="5s" repeatCount="indefinite"/>
     </line>
   </g>
@@ -182,10 +182,14 @@
     </text>
     <text x="600" y="182" font-size="70" font-weight="800" letter-spacing="14" fill="url(#titleGrad)">HORACE</text>
   </g>
-  <!-- ===== KEEP: 观天之道 执天之行 ===== -->
+
+  <!-- ===== KEEP: 观天之道 执天之行 (crisp = glow behind + sharp on top) ===== -->
   <text x="600" y="234" text-anchor="middle" font-size="27" font-weight="600" letter-spacing="8"
-        font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',serif" fill="#f0b429" filter="url(#glow)">观天之道 · 执天之行</text>
+        font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',serif" fill="#f0b429" filter="url(#tagGlow)" opacity="0.5">观天之道 · 执天之行</text>
+  <text x="600" y="234" text-anchor="middle" font-size="27" font-weight="600" letter-spacing="8"
+        font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',serif" fill="#f0b429">观天之道 · 执天之行</text>
+
   <rect x="420" y="256" width="360" height="2" rx="1" fill="url(#lineGrad)"/>
-  <text x="600" y="286" text-anchor="middle" font-size="14" letter-spacing="6"
-        font-family="'PingFang SC','Noto Sans SC','Fira Code',monospace" fill="#8fd7f5">紫微 · 八字 · 占星 · 六壬 · 奇门遁甲 · 太乙 · AI</text>
+  <text x="600" y="286" text-anchor="middle" font-size="14" letter-spacing="5"
+        font-family="'PingFang SC','Noto Sans SC','Fira Code',monospace" fill="#8fd7f5">紫微 · 八字 · 占星 · 六壬 · 遁甲 · 太乙 · 玄学 · 道法 · AI</text>
 </svg>

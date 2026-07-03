@@ -66,8 +66,8 @@
       <circle r="206" stroke-width="1"/>
       <circle r="160" stroke="#38bdf8" stroke-width="0.6" stroke-dasharray="3 8"/>
       <g fill="#c8a2ff" stroke="none" font-size="34" font-family="serif" text-anchor="middle" dominant-baseline="central">
-        <text x="229" y="0">☰</text><text x="162" y="162">☱</text><text x="0" y="229">☲</text><text x="-162" y="162">☳</text>
-        <text x="-229" y="0">☴</text><text x="-162" y="-162">☵</text><text x="0" y="-229">☶</text><text x="162" y="-162">☷</text>
+        <text x="0" y="-229">☲</text><text x="162" y="-162">☷</text><text x="229" y="0">☱</text><text x="162" y="162">☰</text>
+        <text x="0" y="229">☵</text><text x="-162" y="162">☶</text><text x="-229" y="0">☳</text><text x="-162" y="-162">☴</text>
       </g>
     </g>
   </g>
