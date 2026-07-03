@@ -1,0 +1,142 @@
+<svg viewBox="0 0 1200 400" width="1200" height="400" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Horace — 观天之道 执天之行">
+  <defs>
+    <radialGradient id="nebula" cx="50%" cy="42%" r="78%">
+      <stop offset="0%" stop-color="#2a1a4a"/>
+      <stop offset="45%" stop-color="#160e2e"/>
+      <stop offset="100%" stop-color="#07050e"/>
+    </radialGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c8a2ff"/>
+      <stop offset="34%" stop-color="#8b5cf6"/>
+      <stop offset="66%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#f0b429"/>
+      <animate attributeName="x1" values="0%;30%;0%" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="100%;130%;100%" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#f0b429" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="shoot" x1="0" y1="0" x2="1" y2="0.4">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="1"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="bigGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="400" fill="url(#nebula)"/>
+
+  <!-- nebula clouds -->
+  <g filter="url(#glow)">
+    <circle cx="215" cy="115" r="95" fill="#6d28d9" opacity="0.22"/>
+    <circle cx="985" cy="305" r="115" fill="#1d4ed8" opacity="0.20"/>
+    <circle cx="1055" cy="85" r="72" fill="#b45309" opacity="0.16"/>
+    <circle cx="150" cy="330" r="80" fill="#0ea5e9" opacity="0.12"/>
+  </g>
+
+  <!-- star field -->
+  <g fill="#ffffff">
+    <circle cx="80" cy="60" r="1.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.2s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle cx="150" cy="200" r="1"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.6s" begin="0.5s" repeatCount="indefinite"/></circle>
+    <circle cx="60" cy="300" r="1.6"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.8s" begin="1.1s" repeatCount="indefinite"/></circle>
+    <circle cx="200" cy="90" r="1.1"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.9s" begin="0.3s" repeatCount="indefinite"/></circle>
+    <circle cx="260" cy="260" r="1.3"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.4s" begin="0.8s" repeatCount="indefinite"/></circle>
+    <circle cx="320" cy="140" r="1"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.4s" begin="1.4s" repeatCount="indefinite"/></circle>
+    <circle cx="120" cy="340" r="1.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="4.1s" begin="0.2s" repeatCount="indefinite"/></circle>
+    <circle cx="380" cy="320" r="1.2"><animate attributeName="opacity" values="0.2;1;0.2" dur="3s" begin="0.9s" repeatCount="indefinite"/></circle>
+    <circle cx="430" cy="80" r="1"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.7s" begin="1.7s" repeatCount="indefinite"/></circle>
+    <circle cx="490" cy="260" r="1.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.6s" begin="0.4s" repeatCount="indefinite"/></circle>
+    <circle cx="540" cy="120" r="1.1"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.5s" begin="1s" repeatCount="indefinite"/></circle>
+    <circle cx="600" cy="345" r="1.3"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.9s" begin="0.6s" repeatCount="indefinite"/></circle>
+    <circle cx="670" cy="90" r="1"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.8s" begin="1.3s" repeatCount="indefinite"/></circle>
+    <circle cx="720" cy="300" r="1.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.3s" begin="0.1s" repeatCount="indefinite"/></circle>
+    <circle cx="780" cy="160" r="1.1"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.6s" begin="1.6s" repeatCount="indefinite"/></circle>
+    <circle cx="840" cy="320" r="1.2"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.7s" begin="0.7s" repeatCount="indefinite"/></circle>
+    <circle cx="900" cy="110" r="1.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.1s" begin="0.35s" repeatCount="indefinite"/></circle>
+    <circle cx="960" cy="250" r="1"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.9s" begin="1.2s" repeatCount="indefinite"/></circle>
+    <circle cx="1020" cy="150" r="1.3"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.5s" begin="0.55s" repeatCount="indefinite"/></circle>
+    <circle cx="1080" cy="320" r="1.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="4s" begin="0.95s" repeatCount="indefinite"/></circle>
+    <circle cx="1130" cy="90" r="1.1"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.7s" begin="1.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1150" cy="220" r="1"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.4s" begin="0.25s" repeatCount="indefinite"/></circle>
+    <circle cx="40" cy="160" r="1.2"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.2s" begin="1.05s" repeatCount="indefinite"/></circle>
+    <circle cx="340" cy="40" r="1"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.6s" begin="0.75s" repeatCount="indefinite"/></circle>
+    <circle cx="1000" cy="40" r="1.3"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.4s" begin="0.45s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="45" r="1.1"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.8s" begin="1.25s" repeatCount="indefinite"/></circle>
+    <circle cx="460" cy="360" r="1.2"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.6s" begin="0.65s" repeatCount="indefinite"/></circle>
+    <circle cx="880" cy="372" r="1"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.5s" begin="1.35s" repeatCount="indefinite"/></circle>
+    <circle cx="250" cy="372" r="1.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.9s" begin="0.15s" repeatCount="indefinite"/></circle>
+    <circle cx="1170" cy="350" r="1.2"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.1s" begin="0.85s" repeatCount="indefinite"/></circle>
+    <circle cx="30" cy="380" r="1"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.7s" begin="1.45s" repeatCount="indefinite"/></circle>
+    <circle cx="560" cy="50" r="1.1"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.9s" begin="0.4s" repeatCount="indefinite"/></circle>
+    <circle cx="790" cy="372" r="1.3"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.5s" begin="1.1s" repeatCount="indefinite"/></circle>
+    <circle cx="1095" cy="200" r="1"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.6s" begin="1s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- shooting stars -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="880,35;520,205" dur="8s" begin="1.5s" repeatCount="indefinite"/>
+    <line x1="0" y1="0" x2="36" y2="14" stroke="url(#shoot)" stroke-width="1.6" stroke-linecap="round" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.62;0.72;1" dur="8s" begin="1.5s" repeatCount="indefinite"/>
+    </line>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="330,55;140,255" dur="9s" begin="5s" repeatCount="indefinite"/>
+    <line x1="0" y1="0" x2="30" y2="16" stroke="url(#shoot)" stroke-width="1.4" stroke-linecap="round" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.6;0.7;1" dur="9s" begin="5s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <!-- rotating luopan / bagua ring -->
+  <g transform="translate(600,200)" opacity="0.17">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="90s" repeatCount="indefinite"/>
+      <circle r="190" fill="none" stroke="#f0b429" stroke-width="1"/>
+      <circle r="158" fill="none" stroke="#8b5cf6" stroke-width="1"/>
+      <circle r="125" fill="none" stroke="#38bdf8" stroke-width="0.6" stroke-dasharray="3 7"/>
+      <g fill="#e6d6ff" font-size="30" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" text-anchor="middle" dominant-baseline="central">
+        <text x="175" y="0">☰</text>
+        <text x="123.7" y="123.7">☱</text>
+        <text x="0" y="175">☲</text>
+        <text x="-123.7" y="123.7">☳</text>
+        <text x="-175" y="0">☴</text>
+        <text x="-123.7" y="-123.7">☵</text>
+        <text x="0" y="-175">☶</text>
+        <text x="123.7" y="-123.7">☷</text>
+      </g>
+    </g>
+  </g>
+  <!-- counter-rotating inner ring -->
+  <g transform="translate(600,200)" opacity="0.14">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="60s" repeatCount="indefinite"/>
+      <circle r="100" fill="none" stroke="#38bdf8" stroke-width="0.8" stroke-dasharray="1 10"/>
+    </g>
+  </g>
+
+  <!-- title -->
+  <g text-anchor="middle" font-family="'Trebuchet MS','Segoe UI',Helvetica,Arial,sans-serif">
+    <text x="600" y="182" font-size="70" font-weight="800" letter-spacing="14" fill="url(#titleGrad)" filter="url(#bigGlow)" opacity="0.55">HORACE
+      <animate attributeName="opacity" values="0.3;0.7;0.3" dur="4s" repeatCount="indefinite"/>
+    </text>
+    <text x="600" y="182" font-size="70" font-weight="800" letter-spacing="14" fill="url(#titleGrad)">HORACE</text>
+  </g>
+
+  <!-- chinese motto -->
+  <text x="600" y="234" text-anchor="middle" font-size="27" font-weight="600" letter-spacing="8"
+        font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',serif" fill="#f0b429" filter="url(#glow)">观天之道 · 执天之行</text>
+
+  <!-- divider -->
+  <rect x="420" y="256" width="360" height="2" rx="1" fill="url(#lineGrad)"/>
+
+  <!-- subtitle -->
+  <text x="600" y="286" text-anchor="middle" font-size="14" letter-spacing="6"
+        font-family="'PingFang SC','Noto Sans SC','Fira Code',monospace" fill="#8fd7f5">紫微 · 八字 · 占星 · 六壬 · 奇门遁甲 · 太乙 · AI</text>
+</svg>
