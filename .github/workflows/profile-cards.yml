@@ -4,9 +4,6 @@ on:
   schedule:
     - cron: "30 5 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 permissions:
   contents: write
@@ -16,11 +13,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Generate profile summary cards (all themes)
+
+      - name: Generate summary cards (no auto-push)
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
-          BRANCH_NAME: main
           UTC_OFFSET: 8
+          AUTO_PUSH: false
+
+      - name: Keep only the tokyonight theme and commit
+        run: |
+          mkdir -p assets/cards
+          cp profile-summary-card-output/tokyonight/*.svg assets/cards/
+          rm -rf profile-summary-card-output
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/cards
+          if git diff --staged --quiet; then
+            echo "No card changes."
+          else
+            git commit -m "📊 Update profile summary cards (tokyonight)"
+            git push
+          fi
