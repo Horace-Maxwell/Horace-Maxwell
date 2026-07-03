@@ -1,0 +1,73 @@
+<svg viewBox="0 0 900 792" width="900" height="792" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="灵宪 · 序言">
+  <defs>
+    <radialGradient id="pbg" cx="50%" cy="30%" r="85%">
+      <stop offset="0%" stop-color="#1b1136"/>
+      <stop offset="55%" stop-color="#120c26"/>
+      <stop offset="100%" stop-color="#0a0716"/>
+    </radialGradient>
+    <linearGradient id="ptitle" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7d774"/>
+      <stop offset="55%" stop-color="#f0b429"/>
+      <stop offset="100%" stop-color="#c8a2ff"/>
+    </linearGradient>
+    <linearGradient id="pdiv" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#f0b429" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="ptglow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="792" fill="url(#pbg)"/>
+
+  <!-- faint stars -->
+  <g fill="#ffffff" opacity="0.5">
+    <circle cx="90" cy="120" r="1.1"/><circle cx="810" cy="90" r="1.3"/>
+    <circle cx="150" cy="640" r="1"/><circle cx="770" cy="680" r="1.2"/>
+    <circle cx="60" cy="400" r="0.9"/><circle cx="840" cy="430" r="1"/>
+    <circle cx="500" cy="60" r="1"/><circle cx="380" cy="740" r="1.1"/>
+  </g>
+
+  <!-- faint bagua watermark -->
+  <g transform="translate(450,470)" opacity="0.05" fill="none" stroke="#c8a2ff">
+    <circle r="250" stroke="#f0b429" stroke-width="1"/>
+    <circle r="205" stroke-width="1"/>
+    <circle r="160" stroke="#38bdf8" stroke-width="0.6" stroke-dasharray="3 8"/>
+    <g fill="#c8a2ff" stroke="none" font-size="34" font-family="serif" text-anchor="middle" dominant-baseline="central">
+      <text x="228" y="0">☰</text><text x="161" y="161">☱</text><text x="0" y="228">☲</text><text x="-161" y="161">☳</text>
+      <text x="-228" y="0">☴</text><text x="-161" y="-161">☵</text><text x="0" y="-228">☶</text><text x="161" y="-161">☷</text>
+    </g>
+  </g>
+
+  <!-- title -->
+  <text x="450" y="86" text-anchor="middle" font-size="52" font-weight="700" fill="url(#ptitle)" filter="url(#ptglow)"
+        font-family="'Songti SC','STSong','Noto Serif SC','SimSun',serif" letter-spacing="10">序</text>
+  <text x="450" y="118" text-anchor="middle" font-size="13" fill="#8fd7f5" letter-spacing="8"
+        font-family="'PingFang SC','Noto Sans SC',sans-serif">灵 宪 · LINGXIAN</text>
+  <rect x="330" y="134" width="240" height="2" rx="1" fill="url(#pdiv)"/>
+
+  <!-- body -->
+  <g text-anchor="middle" font-family="'Songti SC','STSong','Noto Serif SC','SimSun',serif" font-size="18" letter-spacing="1">
+    <text x="450" y="180" fill="#e3d8ff">生而为人，悲欢通困，却富有九州。</text>
+    <text x="450" y="218" fill="#cfc2ee">我们存在于时空，恍若蜉蝣漂江海、秋虫奋山河。</text>
+    <text x="450" y="252" fill="#cfc2ee">世界之于“我”，缠绵悱恻，似月在怀，又和光同尘。熟悉且陌生。</text>
+    <text x="450" y="290" fill="#e3d8ff">自由意志与命定论的是非，至今无人可判。</text>
+    <text x="450" y="330" fill="#f0b429">命运默然，则让她发声。</text>
+    <text x="450" y="364" fill="#f0b429">命运虚伪，则让她消亡。</text>
+    <text x="450" y="398" fill="#f0b429">命运虚实参半，则扬弃之。</text>
+    <text x="450" y="438" fill="#e3d8ff">没有被证明之物，无须畏惧。无知者无畏，不莽者不前。</text>
+    <text x="450" y="472" fill="#e3d8ff">天道幽微，生育万物。若真有形而上者，它必应许了人的诞生与渴求。</text>
+    <text x="450" y="512" fill="#f7d774" font-size="20" font-weight="700">因此，人即天之道，求索即正义。</text>
+    <text x="450" y="552" fill="#e3d8ff">借自我设限而求得安宁者，一去不返。如今的时代与国家，如日方生。</text>
+    <text x="450" y="586" fill="#e3d8ff">自由与命定的博弈，总要结束。或早或晚。</text>
+    <text x="450" y="624" fill="#c8a2ff">让它终结于今朝，终结于祖国，终结于三千年的求索，终结于此时此刻。</text>
+    <text x="450" y="662" fill="#f7d774" font-weight="700">这使我们唯一的愿望。</text>
+  </g>
+
+  <rect x="330" y="700" width="240" height="1.5" rx="1" fill="url(#pdiv)"/>
+  <text x="450" y="738" text-anchor="middle" font-size="13" fill="#8b8b9e" letter-spacing="2"
+        font-family="'Songti SC','Noto Serif SC',serif"><tspan font-style="italic">—— 转载于荀爽《灵宪》 · horosa.com</tspan></text>
+</svg>
