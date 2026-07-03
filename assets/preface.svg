@@ -80,14 +80,14 @@
   </g>
 
   <!-- seal behind title -->
-  <rect x="406" y="26" width="88" height="88" rx="12" fill="none" stroke="#f0b429" stroke-width="1.2" opacity="0.32"/>
+  <rect x="411" y="30" width="78" height="66" rx="14" fill="none" stroke="#f0b429" stroke-width="1.2" opacity="0.32"/>
 
   <!-- title -->
-  <text x="450" y="88" text-anchor="middle" font-size="52" font-weight="700" fill="url(#ptitle)" filter="url(#ptglow)"
+  <text x="450" y="84" text-anchor="middle" font-size="48" font-weight="700" fill="url(#ptitle)" filter="url(#ptglow)"
         font-family="'Songti SC','STSong','Noto Serif SC','SimSun',serif" letter-spacing="10">序</text>
-  <text x="450" y="120" text-anchor="middle" font-size="13" fill="#8fd7f5" letter-spacing="8"
+  <text x="450" y="132" text-anchor="middle" font-size="13" fill="#8fd7f5" letter-spacing="8"
         font-family="'PingFang SC','Noto Sans SC',sans-serif">灵 宪 · LINGXIAN</text>
-  <rect x="330" y="136" width="240" height="2" rx="1" fill="url(#pdiv)"/>
+  <rect x="330" y="150" width="240" height="2" rx="1" fill="url(#pdiv)"/>
 
   <!-- body -->
   <g text-anchor="middle" font-family="'Songti SC','STSong','Noto Serif SC','SimSun',serif" font-size="18" letter-spacing="1">
