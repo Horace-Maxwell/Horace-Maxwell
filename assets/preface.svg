@@ -21,6 +21,7 @@
     <filter id="ptglow" x="-60%" y="-60%" width="220%" height="220%">
       <feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    <filter id="sealGlow" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="4"/></filter>
     <filter id="pnbblur" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="26"/></filter>
   </defs>
 
@@ -79,12 +80,14 @@
     <path d="M866 722 L866 758 L830 758"/><circle cx="866" cy="758" r="2" fill="#f0b429" stroke="none"/>
   </g>
 
-  <!-- seal behind title -->
-  <rect x="411" y="30" width="78" height="66" rx="14" fill="none" stroke="#f0b429" stroke-width="1.2" opacity="0.32"/>
+  <!-- seal behind title (square) -->
+  <rect x="413" y="27" width="74" height="74" rx="14" fill="none" stroke="#f0b429" stroke-width="1.2" opacity="0.34"/>
 
-  <!-- title -->
-  <text x="450" y="84" text-anchor="middle" font-size="48" font-weight="700" fill="url(#ptitle)" filter="url(#ptglow)"
-        font-family="'Songti SC','STSong','Noto Serif SC','SimSun',serif" letter-spacing="10">序</text>
+  <!-- title: soft glow behind + crisp on top, centered -->
+  <text x="450" y="65" text-anchor="middle" dominant-baseline="central" font-size="46" font-weight="700" fill="url(#ptitle)" filter="url(#sealGlow)" opacity="0.5"
+        font-family="'Songti SC','STSong','Noto Serif SC','SimSun',serif">序</text>
+  <text x="450" y="65" text-anchor="middle" dominant-baseline="central" font-size="46" font-weight="700" fill="url(#ptitle)"
+        font-family="'Songti SC','STSong','Noto Serif SC','SimSun',serif">序</text>
   <text x="450" y="132" text-anchor="middle" font-size="13" fill="#8fd7f5" letter-spacing="8"
         font-family="'PingFang SC','Noto Sans SC',sans-serif">灵 宪 · LINGXIAN</text>
   <rect x="330" y="150" width="240" height="2" rx="1" fill="url(#pdiv)"/>
