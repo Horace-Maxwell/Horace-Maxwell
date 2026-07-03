@@ -47,31 +47,6 @@
 </tr>
 </table>
 
-## 🧭 术数 · The Arts
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Ziwei-紫微斗数-8b5cf6?style=flat-square&labelColor=0d0a1f" />
-  <img src="https://img.shields.io/badge/Bazi-八字-a855f7?style=flat-square&labelColor=0d0a1f" />
-  <img src="https://img.shields.io/badge/Tieban-铁板神数-9333ea?style=flat-square&labelColor=0d0a1f" />
-  <img src="https://img.shields.io/badge/Heluo-河洛理数-7c3aed?style=flat-square&labelColor=0d0a1f" />
-  <img src="https://img.shields.io/badge/Astrology-占星-38bdf8?style=flat-square&labelColor=0d0a1f" />
-  <img src="https://img.shields.io/badge/Qizheng-七政四余-0ea5e9?style=flat-square&labelColor=0d0a1f" />
-  <br/>
-  <img src="https://img.shields.io/badge/Liuren-六壬-0284c7?style=flat-square&labelColor=0d0a1f" />
-  <img src="https://img.shields.io/badge/Qimen-奇门遁甲-f0b429?style=flat-square&labelColor=0d0a1f" />
-  <img src="https://img.shields.io/badge/Taiyi-太乙-eab308?style=flat-square&labelColor=0d0a1f" />
-  <img src="https://img.shields.io/badge/Liuyao-六爻-2dd4bf?style=flat-square&labelColor=0d0a1f" />
-  <img src="https://img.shields.io/badge/Meihua-梅花易数-14b8a6?style=flat-square&labelColor=0d0a1f" />
-  <img src="https://img.shields.io/badge/Jinqian-金钱卦-06b6d4?style=flat-square&labelColor=0d0a1f" />
-  <br/>
-  <img src="https://img.shields.io/badge/Fengshui-风水-34d399?style=flat-square&labelColor=0d0a1f" />
-  <img src="https://img.shields.io/badge/Xuankong-玄空飞星-10b981?style=flat-square&labelColor=0d0a1f" />
-  <img src="https://img.shields.io/badge/Physiognomy-相术-f472b6?style=flat-square&labelColor=0d0a1f" />
-  <img src="https://img.shields.io/badge/Zeri-择日-fb923c?style=flat-square&labelColor=0d0a1f" />
-  <img src="https://img.shields.io/badge/Tongshe-统摄法-eab308?style=flat-square&labelColor=0d0a1f" />
-  <img src="https://img.shields.io/badge/Zhuxian-主限法-c084fc?style=flat-square&labelColor=0d0a1f" />
-</div>
-
 ## 🛠️ 技术栈 · Tech Stack
 
 <div align="center">
@@ -89,7 +64,7 @@
 
 <table width="100%">
 <tr>
-<td width="50%" align="center" valign="top">
+<td width="490" align="center" valign="top">
 
 #### 🖥️ [Horosa · macOS](https://github.com/Horace-Maxwell/Horosa-Web-App-comprehensively-improved-MacOS)
 十项全能玄学术数工作站 · Mac 端<br/>
@@ -98,7 +73,7 @@
 <img src="https://img.shields.io/github/languages/top/Horace-Maxwell/Horosa-Web-App-comprehensively-improved-MacOS?style=flat-square&color=38bdf8&labelColor=1a1b27" />
 
 </td>
-<td width="50%" align="center" valign="top">
+<td width="490" align="center" valign="top">
 
 #### 🪟 [Horosa · Windows](https://github.com/Horace-Maxwell/Horosa-Web-App-comprehensively-improved-Windows)
 十项全能玄学术数工作站 · Win 端<br/>
@@ -109,7 +84,7 @@
 </td>
 </tr>
 <tr>
-<td width="50%" align="center" valign="top">
+<td width="490" align="center" valign="top">
 
 #### 🤖 [horosa-skill](https://github.com/Horace-Maxwell/horosa-skill)
 让 AI 本地挂载一个玄学家 · 离线术数技能<br/>
@@ -118,7 +93,7 @@
 <img src="https://img.shields.io/github/languages/top/Horace-Maxwell/horosa-skill?style=flat-square&color=38bdf8&labelColor=1a1b27" />
 
 </td>
-<td width="50%" align="center" valign="top">
+<td width="490" align="center" valign="top">
 
 #### 🍎 [Moira · macOS ARM](https://github.com/Horace-Maxwell/Moira_APP_MacOS_ARM)
 Apple Silicon 本地运行的 Moira APP<br/>
@@ -129,7 +104,7 @@ Apple Silicon 本地运行的 Moira APP<br/>
 </td>
 </tr>
 <tr>
-<td width="50%" align="center" valign="top">
+<td width="490" align="center" valign="top">
 
 #### 📱 [Horosa · PhoneAPP](https://github.com/Horace-Maxwell/Horosa-PhoneAPP-Mac)
 星阁手机 APP · Mac 适配<br/>
@@ -138,7 +113,7 @@ Apple Silicon 本地运行的 Moira APP<br/>
 <img src="https://img.shields.io/github/languages/top/Horace-Maxwell/Horosa-PhoneAPP-Mac?style=flat-square&color=38bdf8&labelColor=1a1b27" />
 
 </td>
-<td width="50%" align="center" valign="top">
+<td width="490" align="center" valign="top">
 
 #### 📜 [divination-notes-prompt](https://github.com/Horace-Maxwell/divination-notes-prompt)
 荀爽直播 / 星阁文章整理 · AI 命理 prompt<br/>
@@ -153,17 +128,17 @@ Apple Silicon 本地运行的 Moira APP<br/>
 ## 📈 星图 · GitHub Constellations
 
 <div align="center">
-  <img src="./assets/cards/0-profile-details.svg" width="84%" alt="profile details" />
+  <img src="./assets/cards/0-profile-details.svg" width="100%" alt="profile details" />
 </div>
 
 <div align="center">
-  <img src="./assets/cards/3-stats.svg" height="200" alt="stats" />
-  <img src="./assets/cards/4-productive-time.svg" height="200" alt="productive time" />
+  <img src="./assets/cards/3-stats.svg" width="49%" alt="stats" />
+  <img src="./assets/cards/4-productive-time.svg" width="49%" alt="productive time" />
 </div>
 
 <div align="center">
-  <img src="./assets/cards/1-repos-per-language.svg" height="200" alt="top languages by repo" />
-  <img src="./assets/cards/2-most-commit-language.svg" height="200" alt="top languages by commit" />
+  <img src="./assets/cards/1-repos-per-language.svg" width="49%" alt="top languages by repo" />
+  <img src="./assets/cards/2-most-commit-language.svg" width="49%" alt="top languages by commit" />
 </div>
 
 <div align="center">
