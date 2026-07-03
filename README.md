@@ -129,6 +129,10 @@ focus:  玄学 × AI × 跨端
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Horace-Maxwell&bg_color=0d0a1f&color=c8a2ff&line=8b5cf6&point=f0b429&area=true&area_color=6e40c9&hide_border=true&custom_title=贡献星轨+·+Contribution+Orbit" width="100%" />
 </div>
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Horace-Maxwell/Horace-Maxwell/output/snake-dark.svg" alt="贪吃蛇吞噬贡献格 · contribution snake" width="100%" />
+</div>
+
 ## 🔮 联系 · Connect
 
 <div align="center">

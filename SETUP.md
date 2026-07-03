@@ -31,16 +31,15 @@ git commit -m "✨ cosmic profile · 观天执天"
 git push
 ```
 
-## 3)(可选)贡献蛇动画 · Contribution snake
-`.github/workflows/snake.yml` 已备好。推送后:
-1. 到仓库 **Actions** 页,手动运行一次 **generate snake**(workflow_dispatch)。
-2. 运行成功后,在 `README.md` 里想放的位置加一行:
+## 3) 贡献蛇动画 · Contribution snake ✅ 已启用
+`.github/workflows/snake.yml` 已运行,蛇图已接入 `README.md`,之后每 12 小时自动刷新。
+以下为手动搭建步骤(供参考 / 迁移时用):
+1. 到仓库 **Actions** 页,运行一次 **generate snake**(workflow_dispatch)。
+2. 运行成功后会生成 `output` 分支,在 README 里引用:
 
 ```html
 <img src="https://raw.githubusercontent.com/Horace-Maxwell/Horace-Maxwell/output/snake-dark.svg" width="100%" />
 ```
-
-之后每 12 小时自动刷新。
 
 ## 说明 · Notes
 - 所有数据卡片(followers / 语言占比 / streak / 奖杯 / 贡献星轨)都会**自动读取你的真实数据**,无需手填。
