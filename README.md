@@ -20,7 +20,7 @@
 
 <table>
 <tr>
-<td width="60%" valign="top">
+<td width="50%" valign="top">
 
 **中文**
 
@@ -29,27 +29,15 @@
 - 🖥️ 跨平台交付:**macOS / Windows** 桌面端、**Apple Silicon** 原生、以及手机端适配。
 - 🙏 于旧星阁 Horosa 基础上改良制作,感谢 **爽哥**、**郑大哥** 与全体开发团队的贡献。
 
+</td>
+<td width="50%" valign="top">
+
 **English**
 
 - 🔭 Author of **Horosa** — an all-in-one Chinese metaphysics workstation for Ziwei, Bazi, Astrology, Liuren, Qimen, Taiyi and more.
 - 🤖 `horosa-skill` mounts a *metaphysician* onto your local AI, fully offline-capable.
 - 🖥️ Ships cross-platform: macOS / Windows desktop, native Apple Silicon, and mobile.
-
-</td>
-<td width="40%" valign="top">
-
-```yaml
-name:     Horace
-pronouns: he / him
-motto:    观天之道 · 执天之行
-craft:
-  - 紫微斗数  / Ziwei
-  - 八字      / Bazi
-  - 占星      / Astrology
-  - 六壬·奇门·太乙
-stack:  [JS, Python, Java, Dart, AI]
-focus:  玄学 × AI × 跨端
-```
+- 🙏 Built on the legacy Horosa — thanks to **爽哥**, **郑大哥** and the whole dev team.
 
 </td>
 </tr>
