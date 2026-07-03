@@ -10,8 +10,12 @@
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=Horace-Maxwell&label=PROFILE+VIEWS&color=8b5cf6&style=for-the-badge" alt="views" />
-  <img src="https://img.shields.io/github/followers/Horace-Maxwell?style=for-the-badge&color=f0b429&labelColor=0d0a1f&logo=github&logoColor=white" alt="followers" />
+  <img src="https://img.shields.io/github/followers/Horace-Maxwell?style=for-the-badge&color=f0b429&labelColor=0d0a1f&logo=github&logoColor=white&label=FOLLOWERS" alt="followers" />
   <img src="https://img.shields.io/badge/玄学_×_AI-观天执天-38bdf8?style=for-the-badge&labelColor=0d0a1f" alt="craft" />
+  <br/>
+  <a href="https://github.com/Horace-Maxwell?tab=repositories"><img src="https://img.shields.io/badge/Horosa-十项全能术数工作站-8b5cf6?style=for-the-badge&labelColor=0d0a1f" alt="horosa" /></a>
+  <img src="https://img.shields.io/badge/离线可用-Offline_Capable-2dd4bf?style=for-the-badge&labelColor=0d0a1f" alt="offline" />
+  <img src="https://img.shields.io/badge/跨端-Mac_·_Win_·_ARM_·_Mobile-34d399?style=for-the-badge&labelColor=0d0a1f" alt="cross-platform" />
 </div>
 
 <br/>
@@ -48,12 +52,24 @@
 <div align="center">
   <img src="https://img.shields.io/badge/Ziwei-紫微斗数-8b5cf6?style=flat-square&labelColor=0d0a1f" />
   <img src="https://img.shields.io/badge/Bazi-八字-a855f7?style=flat-square&labelColor=0d0a1f" />
+  <img src="https://img.shields.io/badge/Tieban-铁板神数-9333ea?style=flat-square&labelColor=0d0a1f" />
+  <img src="https://img.shields.io/badge/Heluo-河洛理数-7c3aed?style=flat-square&labelColor=0d0a1f" />
   <img src="https://img.shields.io/badge/Astrology-占星-38bdf8?style=flat-square&labelColor=0d0a1f" />
-  <img src="https://img.shields.io/badge/Liuren-六壬-0ea5e9?style=flat-square&labelColor=0d0a1f" />
+  <img src="https://img.shields.io/badge/Qizheng-七政四余-0ea5e9?style=flat-square&labelColor=0d0a1f" />
+  <br/>
+  <img src="https://img.shields.io/badge/Liuren-六壬-0284c7?style=flat-square&labelColor=0d0a1f" />
   <img src="https://img.shields.io/badge/Qimen-奇门遁甲-f0b429?style=flat-square&labelColor=0d0a1f" />
   <img src="https://img.shields.io/badge/Taiyi-太乙-eab308?style=flat-square&labelColor=0d0a1f" />
   <img src="https://img.shields.io/badge/Liuyao-六爻-2dd4bf?style=flat-square&labelColor=0d0a1f" />
+  <img src="https://img.shields.io/badge/Meihua-梅花易数-14b8a6?style=flat-square&labelColor=0d0a1f" />
+  <img src="https://img.shields.io/badge/Jinqian-金钱卦-06b6d4?style=flat-square&labelColor=0d0a1f" />
+  <br/>
   <img src="https://img.shields.io/badge/Fengshui-风水-34d399?style=flat-square&labelColor=0d0a1f" />
+  <img src="https://img.shields.io/badge/Xuankong-玄空飞星-10b981?style=flat-square&labelColor=0d0a1f" />
+  <img src="https://img.shields.io/badge/Physiognomy-相术-f472b6?style=flat-square&labelColor=0d0a1f" />
+  <img src="https://img.shields.io/badge/Zeri-择日-fb923c?style=flat-square&labelColor=0d0a1f" />
+  <img src="https://img.shields.io/badge/Tongshe-统摄法-eab308?style=flat-square&labelColor=0d0a1f" />
+  <img src="https://img.shields.io/badge/Zhuxian-主限法-c084fc?style=flat-square&labelColor=0d0a1f" />
 </div>
 
 ## 🛠️ 技术栈 · Tech Stack
@@ -71,9 +87,9 @@
 
 ## ⭐ 代表作 · Featured Works
 
-<table>
+<table width="100%">
 <tr>
-<td width="50%" valign="top">
+<td width="50%" align="center" valign="top">
 
 #### 🖥️ [Horosa · macOS](https://github.com/Horace-Maxwell/Horosa-Web-App-comprehensively-improved-MacOS)
 十项全能玄学术数工作站 · Mac 端<br/>
@@ -82,7 +98,7 @@
 <img src="https://img.shields.io/github/languages/top/Horace-Maxwell/Horosa-Web-App-comprehensively-improved-MacOS?style=flat-square&color=38bdf8&labelColor=1a1b27" />
 
 </td>
-<td width="50%" valign="top">
+<td width="50%" align="center" valign="top">
 
 #### 🪟 [Horosa · Windows](https://github.com/Horace-Maxwell/Horosa-Web-App-comprehensively-improved-Windows)
 十项全能玄学术数工作站 · Win 端<br/>
@@ -93,7 +109,7 @@
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="50%" align="center" valign="top">
 
 #### 🤖 [horosa-skill](https://github.com/Horace-Maxwell/horosa-skill)
 让 AI 本地挂载一个玄学家 · 离线术数技能<br/>
@@ -102,7 +118,7 @@
 <img src="https://img.shields.io/github/languages/top/Horace-Maxwell/horosa-skill?style=flat-square&color=38bdf8&labelColor=1a1b27" />
 
 </td>
-<td width="50%" valign="top">
+<td width="50%" align="center" valign="top">
 
 #### 🍎 [Moira · macOS ARM](https://github.com/Horace-Maxwell/Moira_APP_MacOS_ARM)
 Apple Silicon 本地运行的 Moira APP<br/>
@@ -113,7 +129,7 @@ Apple Silicon 本地运行的 Moira APP<br/>
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="50%" align="center" valign="top">
 
 #### 📱 [Horosa · PhoneAPP](https://github.com/Horace-Maxwell/Horosa-PhoneAPP-Mac)
 星阁手机 APP · Mac 适配<br/>
@@ -122,13 +138,13 @@ Apple Silicon 本地运行的 Moira APP<br/>
 <img src="https://img.shields.io/github/languages/top/Horace-Maxwell/Horosa-PhoneAPP-Mac?style=flat-square&color=38bdf8&labelColor=1a1b27" />
 
 </td>
-<td width="50%" valign="top">
+<td width="50%" align="center" valign="top">
 
 #### 📜 [divination-notes-prompt](https://github.com/Horace-Maxwell/divination-notes-prompt)
 荀爽直播 / 星阁文章整理 · AI 命理 prompt<br/>
 <img src="https://img.shields.io/github/stars/Horace-Maxwell/divination-notes-prompt?style=flat-square&logo=github&color=f0b429&labelColor=1a1b27" />
 <img src="https://img.shields.io/github/forks/Horace-Maxwell/divination-notes-prompt?style=flat-square&logo=git&logoColor=white&color=8b5cf6&labelColor=1a1b27" />
-<img src="https://img.shields.io/github/languages/top/Horace-Maxwell/divination-notes-prompt?style=flat-square&color=38bdf8&labelColor=1a1b27" />
+<img src="https://img.shields.io/badge/format-Markdown-38bdf8?style=flat-square&logo=markdown&logoColor=white&labelColor=1a1b27" />
 
 </td>
 </tr>
