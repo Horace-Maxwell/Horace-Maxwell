@@ -1,4 +1,4 @@
-<svg viewBox="0 0 900 64" width="900" height="64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="观天之道 执天之行 · 十项全能玄学术数工作站 Horosa">
+<svg viewBox="0 0 1000 66" width="1000" height="66" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="黄帝阴符经 · 循环警句">
   <defs>
     <linearGradient id="tg" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#c8a2ff"/>
@@ -6,8 +6,8 @@
       <stop offset="100%" stop-color="#f0b429"/>
     </linearGradient>
     <radialGradient id="taura" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.55"/>
-      <stop offset="60%" stop-color="#6d28d9" stop-opacity="0.18"/>
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.5"/>
+      <stop offset="60%" stop-color="#6d28d9" stop-opacity="0.16"/>
       <stop offset="100%" stop-color="#6d28d9" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="tunder" x1="0" y1="0" x2="1" y2="0">
@@ -17,33 +17,33 @@
     </linearGradient>
   </defs>
 
-  <ellipse cx="450" cy="30" rx="300" ry="24" fill="url(#taura)">
-    <animate attributeName="opacity" values="0.45;0.95;0.45" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="rx" values="270;320;270" dur="4s" repeatCount="indefinite"/>
+  <ellipse cx="500" cy="32" rx="300" ry="24" fill="url(#taura)">
+    <animate attributeName="opacity" values="0.45;0.9;0.45" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="rx" values="280;340;280" dur="4s" repeatCount="indefinite"/>
   </ellipse>
 
   <g fill="#f0b429">
-    <path d="M40 30 l4 -5 l4 5 l-4 5 z"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.6s" repeatCount="indefinite"/></path>
-    <path d="M852 30 l4 -5 l4 5 l-4 5 z"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.6s" begin="1.3s" repeatCount="indefinite"/></path>
+    <path d="M44 32 l4 -5 l4 5 l-4 5 z"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.6s" repeatCount="indefinite"/></path>
+    <path d="M948 32 l4 -5 l4 5 l-4 5 z"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.6s" begin="1.3s" repeatCount="indefinite"/></path>
   </g>
 
-  <g font-family="'Fira Code','PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif"
-     font-size="24" font-weight="700" text-anchor="middle" fill="url(#tg)">
-    <text x="450" y="38" opacity="0">观天之道 · 执天之行
-      <animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0;0.02;0.22;0.25;1"/>
-    </text>
-    <text x="450" y="38" opacity="0">十项全能玄学术数工作站 · Horosa
-      <animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.25;0.27;0.47;0.5;1"/>
-    </text>
-    <text x="450" y="38" opacity="0">让 AI 本地挂载一个玄学家
-      <animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.5;0.52;0.72;0.75;1"/>
-    </text>
-    <text x="450" y="38" opacity="0">紫微 · 八字 · 占星 · 六壬 · 奇门 · 太乙
-      <animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.75;0.77;0.97;0.999;1"/>
-    </text>
+  <g font-family="'Songti SC','STSong','Noto Serif SC','SimSun',serif" font-size="21" font-weight="600" text-anchor="middle" fill="url(#tg)">
+    <text x="500" y="39" opacity="0">观天之道，执天之行<animate attributeName="opacity" dur="52s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0;0.006;0.0709;0.0769;1"/></text>
+    <text x="500" y="39" opacity="0">天有五贼，见之者昌。五贼在心，施行于天<animate attributeName="opacity" dur="52s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.0769;0.0829;0.1478;0.1538;1"/></text>
+    <text x="500" y="39" opacity="0">宇宙在乎手，万化生乎身<animate attributeName="opacity" dur="52s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.1538;0.1598;0.2248;0.2308;1"/></text>
+    <text x="500" y="39" opacity="0">天性，人也；人心，机也<animate attributeName="opacity" dur="52s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.2308;0.2368;0.3017;0.3077;1"/></text>
+    <text x="500" y="39" opacity="0">立天之道，以定人也<animate attributeName="opacity" dur="52s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.3077;0.3137;0.3786;0.3846;1"/></text>
+    <text x="500" y="39" opacity="0">天发杀机，移星易宿；地发杀机，龙蛇起陆；人发杀机，天地反覆；天人合发，万化定基<animate attributeName="opacity" dur="52s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.3846;0.3906;0.4555;0.4615;1"/></text>
+    <text x="500" y="39" opacity="0">天地，万物之盗；万物，人之盗；人，万物之盗<animate attributeName="opacity" dur="52s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.4615;0.4675;0.5325;0.5385;1"/></text>
+    <text x="500" y="39" opacity="0">爰有奇器，是生万象<animate attributeName="opacity" dur="52s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.5385;0.5445;0.6094;0.6154;1"/></text>
+    <text x="500" y="39" opacity="0">八卦甲子，神机鬼藏<animate attributeName="opacity" dur="52s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.6154;0.6214;0.6863;0.6923;1"/></text>
+    <text x="500" y="39" opacity="0">雷霆由我作，神明由我召<animate attributeName="opacity" dur="52s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.6923;0.6983;0.7632;0.7692;1"/></text>
+    <text x="500" y="39" opacity="0">以我之真炁，合天地之造化<animate attributeName="opacity" dur="52s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.7692;0.7752;0.8402;0.8462;1"/></text>
+    <text x="500" y="39" opacity="0">我即元始，元始即我<animate attributeName="opacity" dur="52s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.8462;0.8522;0.9171;0.9231;1"/></text>
+    <text x="500" y="39" opacity="0">我大天地，天地小我<animate attributeName="opacity" dur="52s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.9231;0.9291;0.994;1;1"/></text>
   </g>
 
-  <rect x="330" y="52" width="240" height="1.6" rx="1" fill="url(#tunder)">
+  <rect x="370" y="53" width="260" height="1.6" rx="1" fill="url(#tunder)">
     <animate attributeName="opacity" values="0.4;1;0.4" dur="4s" repeatCount="indefinite"/>
   </rect>
 </svg>
