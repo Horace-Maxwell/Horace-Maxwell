@@ -28,7 +28,7 @@
 
 **中文**
 
-- 🔭 十项全能玄学术数工作站 **Horosa** 的作者 —— 覆盖 **紫微斗数 · 八字 · 占星 · 六壬 · 奇门遁甲 · 太乙 · 六爻 · 风水** 及绝大部分主流推运技法(含正统主限法)。
+- 🔭 十项全能玄学术数工作站 **Horosa** 的作者 —— 覆盖 **紫微斗数 · 八字 · 占星 · 推运 · 印占 · 六壬 · 遁甲 · 太乙 · 六爻 · 风水 · 三式合一 · 数算 · 河洛理数 · 宿占 · 统摄法 · 金口诀 · 地占 · 塔罗 · 玄学史 · 数据库 · 天文馆 · 3D星盘** 等能力。
 - 🤖 让 AI「本地挂载一个玄学家」:`horosa-skill` 把术数能力离线赋给你的模型。
 - 🖥️ 跨平台交付:**macOS / Windows** 桌面端、**Apple Silicon** 原生、以及手机端适配。
 - 🙏 于旧星阁 Horosa 基础上改良制作,感谢 **爽哥**、**郑大哥** 与全体开发团队的贡献。
@@ -38,7 +38,7 @@
 
 **English**
 
-- 🔭 Author of **Horosa** — an all-in-one Chinese metaphysics workstation for Ziwei, Bazi, Astrology, Liuren, Qimen, Taiyi and more.
+- 🔭 Author of **Horosa** — an all-in-one Chinese metaphysics workstation covering **Ziwei · Bazi · Astrology · Progressions · Vedic · Liuren · Qimen · Taiyi · Liuyao · Fengshui · Sanshi Fusion · Numerology · Heluo · Lunar Mansions · Tongshe · Jinkoujue · Geomancy · Tarot · Metaphysics History · Database · Planetarium · 3D Charts**.
 - 🤖 `horosa-skill` mounts a *metaphysician* onto your local AI, fully offline-capable.
 - 🖥️ Ships cross-platform: macOS / Windows desktop, native Apple Silicon, and mobile.
 - 🙏 Built on the legacy Horosa — thanks to **爽哥**, **郑大哥** and the whole dev team.
@@ -124,30 +124,6 @@ Apple Silicon 本地运行的 Moira APP<br/>
 </td>
 </tr>
 </table>
-
-## 📈 星图 · GitHub Constellations
-
-<div align="center">
-  <img src="./assets/cards/0-profile-details.svg" width="100%" alt="profile details" />
-</div>
-
-<div align="center">
-  <img src="./assets/cards/3-stats.svg" width="49%" alt="stats" />
-  <img src="./assets/cards/4-productive-time.svg" width="49%" alt="productive time" />
-</div>
-
-<div align="center">
-  <img src="./assets/cards/1-repos-per-language.svg" width="49%" alt="top languages by repo" />
-  <img src="./assets/cards/2-most-commit-language.svg" width="49%" alt="top languages by commit" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com/?user=Horace-Maxwell&background=0d0a1f&border=30225e&stroke=8b5cf6&ring=f0b429&fire=f0b429&currStreakLabel=c8a2ff&sideLabels=c9d1e0&currStreakNum=ffffff&sideNums=ffffff&dates=8b8b9e" alt="streak" />
-</div>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Horace-Maxwell/Horace-Maxwell/output/snake-dark.svg" alt="贪吃蛇吞噬贡献格 · contribution snake" width="100%" />
-</div>
 
 ## 📜 序 · 灵宪
 
@@ -275,6 +251,30 @@ Apple Silicon 本地运行的 Moira APP<br/>
 > —— 转载自星阙 Horosa《道法十八条论纲》
 
 </details>
+
+## 📈 星图 · GitHub Constellations
+
+<div align="center">
+  <img src="./assets/cards/0-profile-details.svg" width="100%" alt="profile details" />
+</div>
+
+<div align="center">
+  <img src="./assets/cards/3-stats.svg" width="49%" alt="stats" />
+  <img src="./assets/cards/4-productive-time.svg" width="49%" alt="productive time" />
+</div>
+
+<div align="center">
+  <img src="./assets/cards/1-repos-per-language.svg" width="49%" alt="top languages by repo" />
+  <img src="./assets/cards/2-most-commit-language.svg" width="49%" alt="top languages by commit" />
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com/?user=Horace-Maxwell&background=0d0a1f&border=30225e&stroke=8b5cf6&ring=f0b429&fire=f0b429&currStreakLabel=c8a2ff&sideLabels=c9d1e0&currStreakNum=ffffff&sideNums=ffffff&dates=8b8b9e" alt="streak" />
+</div>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Horace-Maxwell/Horace-Maxwell/output/snake-dark.svg" alt="贪吃蛇吞噬贡献格 · contribution snake" width="100%" />
+</div>
 
 ## 🔮 联系 · Connect
 
