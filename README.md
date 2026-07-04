@@ -67,7 +67,7 @@
 <td width="490" align="center" valign="top">
 
 #### 🖥️ [Horosa · macOS](https://github.com/Horace-Maxwell/Horosa-Web-App-comprehensively-improved-MacOS)
-十项全能玄学术数工作站 · Mac 端<br/>
+十项全能玄学术数工作站星阙 · Mac 端<br/>
 <img src="https://img.shields.io/github/stars/Horace-Maxwell/Horosa-Web-App-comprehensively-improved-MacOS?style=flat-square&logo=github&color=f0b429&labelColor=1a1b27" />
 <img src="https://img.shields.io/github/forks/Horace-Maxwell/Horosa-Web-App-comprehensively-improved-MacOS?style=flat-square&logo=git&logoColor=white&color=8b5cf6&labelColor=1a1b27" />
 <img src="https://img.shields.io/github/languages/top/Horace-Maxwell/Horosa-Web-App-comprehensively-improved-MacOS?style=flat-square&color=38bdf8&labelColor=1a1b27" />
@@ -76,7 +76,7 @@
 <td width="490" align="center" valign="top">
 
 #### 🪟 [Horosa · Windows](https://github.com/Horace-Maxwell/Horosa-Web-App-comprehensively-improved-Windows)
-十项全能玄学术数工作站 · Win 端<br/>
+十项全能玄学术数工作站星阙 · Win 端<br/>
 <img src="https://img.shields.io/github/stars/Horace-Maxwell/Horosa-Web-App-comprehensively-improved-Windows?style=flat-square&logo=github&color=f0b429&labelColor=1a1b27" />
 <img src="https://img.shields.io/github/forks/Horace-Maxwell/Horosa-Web-App-comprehensively-improved-Windows?style=flat-square&logo=git&logoColor=white&color=8b5cf6&labelColor=1a1b27" />
 <img src="https://img.shields.io/github/languages/top/Horace-Maxwell/Horosa-Web-App-comprehensively-improved-Windows?style=flat-square&color=38bdf8&labelColor=1a1b27" />
@@ -107,7 +107,7 @@ Apple Silicon 本地运行的 Moira APP<br/>
 <td width="490" align="center" valign="top">
 
 #### 📱 [Horosa · PhoneAPP](https://github.com/Horace-Maxwell/Horosa-PhoneAPP-Mac)
-星阁手机 APP · Mac 适配<br/>
+星阙手机 APP · Mac 适配<br/>
 <img src="https://img.shields.io/github/stars/Horace-Maxwell/Horosa-PhoneAPP-Mac?style=flat-square&logo=github&color=f0b429&labelColor=1a1b27" />
 <img src="https://img.shields.io/github/forks/Horace-Maxwell/Horosa-PhoneAPP-Mac?style=flat-square&logo=git&logoColor=white&color=8b5cf6&labelColor=1a1b27" />
 <img src="https://img.shields.io/github/languages/top/Horace-Maxwell/Horosa-PhoneAPP-Mac?style=flat-square&color=38bdf8&labelColor=1a1b27" />
@@ -116,7 +116,7 @@ Apple Silicon 本地运行的 Moira APP<br/>
 <td width="490" align="center" valign="top">
 
 #### 📜 [divination-notes-prompt](https://github.com/Horace-Maxwell/divination-notes-prompt)
-荀爽直播 / 星阁文章整理 · AI 命理 prompt<br/>
+荀爽直播 / 星阙文章整理 · AI 命理 prompt<br/>
 <img src="https://img.shields.io/github/stars/Horace-Maxwell/divination-notes-prompt?style=flat-square&logo=github&color=f0b429&labelColor=1a1b27" />
 <img src="https://img.shields.io/github/forks/Horace-Maxwell/divination-notes-prompt?style=flat-square&logo=git&logoColor=white&color=8b5cf6&labelColor=1a1b27" />
 <img src="https://img.shields.io/badge/format-Markdown-38bdf8?style=flat-square&logo=markdown&logoColor=white&labelColor=1a1b27" />
